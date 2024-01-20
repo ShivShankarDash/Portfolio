@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shiv's Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+<body>
+    <nav id="desktop-nav">
+    <div class="logo">Shiv Shankar Dash</div>    
+     <div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>  
+     </div>   
+    </nav>
+    <nav id="hamburger-nav">
+    <div class="logo">Shiv Shankar Dash</div>
+    <div class="hamburger-menu">
+     <div class="hamburger-icon" onclick="toggleMenu()">
+      <span></span>
+      <span></span>
+      <span></span>  
+    </div>   
+    <div class="menu-links">
+        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+        <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+        <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+    </div>
+    </div>    
+    </nav>
+    <section id="profile">
+    <div class="section__pic-container">
+    <img id = "first_profile_image" src="./assets/programmer_profile_pic_new.png" alt="Shiv's Profile Picture" /> 
+    </div>    
+    <div class="section__text">
+    <p class="section_text_p1">Hello I'm</p>
+    <h1 class="title">Shiv Shankar Dash</h1>
+    <p class="section_text_p2" id="pro_role">A Software Developer</p>    
+    <div class="btn-container">
+    <button class="btn btn-color-2" onclick="window.open('./assets/resume-example.pdf')">Download CV</button>    
+    <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>  
+    </div>
+    <div id="socials-container">
+        <img src="./assets/linkedin.png" alt="My Linkedin Profile" class="icon" onclick="location.href='https://www.linkedin.com/in/shiv-shankar-dash-57ab02138/'">
+        <img src="./assets/github.png" class="icon" alt="My Github Profile" onclick="location.href='https://github.com/ShivShankarDash'">
+    </div>   
+    </div>
+    </section>
+    <section id="about">
+    <p class="section_text_p1">Get To Know More</p>    
+    <h1 class="title">About Me</h1>
+    <div class="section-container">
+    <div class="section__pic-container">
+     <img src="./assets/profile_pic_shiv.png" alt="Profile Picture" class="about-pic"/>   
+    </div>   
+    <div class="about-details-container">
+    <div class="about-containers">
+     <div class="details-container">
+       <img src="./assets/experience.png" alt="experience-icon" class="icon"/> 
+       <h3>Experience</h3>
+       <p>2+ years <br>Software development</p>
+       <p>2+ years <br>Technical program management</p>
+     </div>   
+     <div class="details-container">
+       <img src="./assets/education.png" alt="education" class="icon"/> 
+       <h3>Education</h3>
+       <p>B.Tech <br>Information Technology <br>Bharati Vidyapeeth's College Of Engineering, Delhi <br> CGPA : 8.52</p>
+     </div>
+    </div>
+    <div class="text-container">
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, incidunt deserunt. Necessitatibus vel iusto laudantium quae beatae nemo quidem autem repellat sunt dignissimos dolore maiores rerum earum molestias velit, ipsam totam, consequuntur itaque possimus tempora recusandae quisquam corporis nobis vitae! Distinctio unde totam fuga exercitationem. Maiores hic repellendus earum quam.</p>   
+    </div>
+    </div>
+    </div>
+    <img src="assets/arrow.png" alt="Arrow Icon" class="icon arrow" onclick="location.href='./#skills'"/>
+    </section>
+    <section id="skills">
+    <h1 class="title">Skills</h1>
+    <div class="skills-details-container">
+    <div class="about-containers">
+    <div class="details-container">
+    <h2 class="skills-sub-title"></h2>    
+    <div class="article-container">
+     <article>
+        <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
+        <div>HTML/CSS</div>
+     </article>   
+     <article>
+        <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
+        <div>Javascript</div>
+     </article>   
+     <article>
+        <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
+        <div>Typescript</div>
+     </article>   
+     <article>
+        <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
+        <div>C++</div>
+     </article>   
+     <article>
+        <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
+        <div>Java</div>
+     </article>   
+     <article>
+        <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
+        <div>MongoDB</div>
+     </article> 
+     <article>
+        <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
+        <div>Postgres</div>
+     </article> 
+     <article>
+        <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
+        <div>MySQL</div>
+     </article> 
+    </div>    
+     </div>   
+    </div>    
+    </div> 
+    <div class="skills-details-container">
+        <div class="about-containers">
+        <div class="details-container">
+        <h2 class="skills-sub-title"></h2>    
+        <div class="article-container">
+         <article>
+            <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
+            <div>React</div>
+         </article>   
+         <article>
+            <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
+            <div>Node</div>
+         </article>   
+         <article>
+            <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
+            <div>Express</div>
+         </article>   
+         <article>
+            <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
+            <div>Next.js</div>
+         </article>   
+         <article>
+            <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
+            <div>Docker</div>
+         </article>   
+         <article>
+            <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
+            <div>GIT</div>
+         </article> 
+         <article>
+            <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
+            <div>Firebase</div>
+         </article> 
+         <article>
+            <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
+            <div>Tailwind</div>
+         </article> 
+        </div>    
+         </div>   
+        </div>    
+        </div>     
+        <img src="assets/arrow.png" alt="Arrow Icon" class="icon arrow" onclick="location.href='./#Projects'"/>
+    </section>
+    <section id="projects">
+        <p class="section_text_p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="skills-details-container">
+            <div class="about-containers">
+         <div class="details-container color-container">
+            <div class="article-container">
+             <img src="./assets/devs_connect.png" alt="project 1" class="project-img"/>   
+            </div>
+            <h2 class="skills-sub-title project-title">DevsConnect</h2>
+            <div class="btn-container">
+             <button class="btn btn-color-2 project-btn" onclick="location.href=''">Github</button> 
+             <button class="btn btn-color-2 project-btn" onclick="location.href=''">Live Demo</button> 
+            </div>
+         </div>   
+         <div class="details-container color-container">
+            <div class="article-container">
+             <img src="./assets/google_doc_clone.gif" alt="project 2" class="project-img"/>   
+            </div>
+            <h2 class="skills-sub-title project-title">Quill Cloud</h2>
+            <div class="btn-container">
+             <button class="btn btn-color-2 project-btn" onclick="location.href=''">Github</button> 
+             <button class="btn btn-color-2 project-btn" onclick="location.href=''">Live Demo</button> 
+            </div>
+         </div> 
+         <div class="details-container color-container">
+            <div class="article-container">
+             <img src="./assets/gamer_home.png" alt="project 3" class="project-img"/>   
+            </div>
+            <h2 class="skills-sub-title project-title">Gamer's Home</h2>
+            <div class="btn-container">
+             <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/ShivShankarDash/game-hub/tree/master'">Github</button> 
+             <button class="btn btn-color-2 project-btn" onclick="location.href='https://game-hub-five-livid.vercel.app/'">Live Demo</button> 
+            </div>
+         </div> 
+        </div>
+        </div>
+        <img src="assets/arrow.png" alt="Arrow Icon" class="icon arrow" onclick="location.href='./#contact'"/>
+    </section>
+    <section id="contact">
+      <p class="section_text_p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+         <div class="contact-info-container">
+            <img src="./assets/email.png" alt="email icon" class="icon contact-icon email_icon" />
+            <p><a href="mailto:dashshiv20@gmail.com">dashshiv20@gmail.com</a></p>
+         </div>
+         <div class="contact-info-container">
+            <img src="./assets/linkedin.png" alt="linkedin icon" class="icon contact-icon" />
+            <p><a href="https://www.linkedin.com/in/shiv-shankar-dash/">Linkedin</a></p>
+         </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+         <div class="nav-links-container">
+            <ul class="nav-links">
+               <li><a href="#about">About</a></li>
+               <li><a href="#skills">Skills</a></li>
+               <li><a href="#projects">Projects</a></li>
+               <li><a href="#contact">Contact</a></li>
+             </ul>    
+         </div>
+      </nav>
+      <p id="last_para">Made with &#9829; by Shiv Shankar Dash. All rights reserved</p>
+    </footer>
+
+   <script src="script.js" ></script>
+</body>
+</html>
